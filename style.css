@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: coral;
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+   
+
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 6px;
+}
+nav a{
+    text-decoration: none;
+    padding: 0px 5px ;
+    color: black;
+    font-weight: bold;
+}
+.active,nav a:hover{
+    color: whitesmoke;
+    border-bottom: solid 2px whitesmoke;
+}
+.logo h2{
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.menu{
+    cursor: pointer;
+    display: none;
+}
+@media all and (max-width:818px){
+    nav{
+        flex-direction: column;
+    }
+    nav li {
+        display: block;
+        padding: 5px 0;
+    }
+    ul{
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
+    .logo{
+        align-self: flex-start;
+        margin: 10px 0px 0px 30px;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top:10px;
+        
+
+    }
+    .showmenu{
+        display: block;
+    }
+}
+
+
+
+
+.icons{
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+.icons i:hover{
+ color: darkred;
+}
+.content{
+    background-color: antiquewhite;
+    padding: 15px;
+}
+.content img{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+
+    
+}
+.content h2{
+    margin-top: 20px;
+    border-left: solid 6px darkorange;
+    padding-left: 5px;
+    color:darkgreen;
+    font-weight: bolder;
+}
+.content p{
+    margin-top: 30px;
+}
+.content p span{
+    color: red;
+    font-weight: bold;
+}
+.skill{
+    margin-top: 100px;
+    padding: 15px;
+}
+.skill h2{
+    border-left: solid 6px darkorange;
+    padding-left: 5px;
+    color:darkgreen;
+    font-weight: bolder;
+}
+.skill summary{
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+    font-size: 30px;
+}
+.skill details p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.Qualification{
+    margin-top: 100px;
+    padding: 15px;
+}
+.Qualification h2{
+    border-left: solid 6px darkorange;
+    padding-left: 5px;
+    color:darkgreen;
+    font-weight: bolder;
+}
+.Qualification h4{
+    margin-top: 25px;
+    color: darkorange;
+}
+.Qualification span{
+    font-weight: bold;
+}
+.About{
+    margin-top: 100px;
+    padding: 15px;
+
+}
+.About h2{
+    border-left: solid 6px darkorange;
+    padding-left: 5px;
+    color:darkgreen;
+    font-weight: bolder;
+}
+.About h4{
+    margin-top: 15px;
+    color: darkorange;
+}
+.About p{
+    margin-top: 20px;
+    font-weight: bold;
+}
+iframe{
+    margin: 20px 30px;
+}
